@@ -1,0 +1,20 @@
+$sm:700px;
+$tb:992px;
+$lg:1150px;
+@mixin for-mobile {
+    @media screen and (max-width: $sm) {
+        @content
+    }
+}
+
+@mixin for-tablet {
+    @media screen and (max-width: $tb) {
+        @content
+    }
+}
+
+@mixin for-large {
+    @media screen and (max-width: $lg) {
+        @content
+    }
+}

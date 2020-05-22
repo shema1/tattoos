@@ -1,0 +1,37 @@
+.footer {
+  padding: 80px 0 20px;
+  &__nav {
+    border-top: 1px solid #89898b;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #89898b;
+    display: flex;
+    @include for-tablet {
+      flex-direction: column;
+      text-align: center;
+    }
+    &__location {
+      display: block;
+      margin-left: 103px;
+      @include for-large {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.footer-contacts {
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  display: none;
+  li {
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+}

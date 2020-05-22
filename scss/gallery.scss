@@ -1,0 +1,42 @@
+.gallery {
+  padding-top: 80px;
+  &__title {
+    text-align: center;
+  }
+  img {
+    margin-top: 10px;
+  }
+
+  .gallery-group {
+    margin-top: 14px;
+  }
+  .more-works {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+.grid-item,
+.grid-sizer {
+  width: 218px;
+  height: 218px;
+  @include for-mobile {
+    width: 114px;
+    height: 114px;
+  }
+}
+.grid-item--width2 {
+  width: 446px;
+  @include for-mobile {
+    width: 346px;
+  }
+}
+.grid-item--height2 {
+  height: 446px;
+  @include for-mobile {
+    height: 346px;
+  }
+}
+.gutter-sizer {
+  width: 10px;
+}

@@ -1,0 +1,44 @@
+.artists {
+  padding: 85px 0 80px;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  @include for-large  {
+    flex-wrap: wrap;
+   justify-content: space-around;
+   width: 680px;
+   margin: 0 auto;
+   }
+  @include for-mobile  {
+    width: 350px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.artist-card {
+  color: $main_text_color;
+  width: 260px;
+  @include for-tablet  {
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+}
+
+.artist-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 15px;
+  &__name {
+    font-family: "PlayfairDisplaySC-Black";
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+  }
+}
