@@ -41,8 +41,12 @@ header {
     }
   }
 
+  @include for-tablet {
+    width: 600px;
+  }
+
   @include for-mobile {
-    display: none;
+    width: 300px;
   }
 }
 

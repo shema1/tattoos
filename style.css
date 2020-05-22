@@ -41,9 +41,14 @@ header {
     margin-right: 10px;
   }
 }
+@media screen and (max-width: 992px) {
+  .navigation {
+    width: 600px;
+  }
+}
 @media screen and (max-width: 700px) {
   .navigation {
-    display: none;
+    width: 300px;
   }
 }
 
@@ -417,6 +422,7 @@ header {
   outline: none;
   padding: 9px 15px;
   font-family: "Raleway-Regular";
+  color: #89898b;
 }
 .contact label {
   margin-top: 27px;
