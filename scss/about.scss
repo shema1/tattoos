@@ -17,10 +17,10 @@
     width: 551px;
     height: 400px;
     right: -25px;
-    top: -30px
+    top: -30px;
   }
-  @include for-tablet  {
-   display: none;
+  @include for-tablet {
+    display: none;
   }
 }
 
@@ -37,7 +37,7 @@
     letter-spacing: 0.01em;
     width: 380px;
     @include for-large {
-      width: 350px
+      width: 350px;
     }
     @include for-tablet {
       width: 100%;
